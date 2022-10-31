@@ -1,7 +1,13 @@
 def if_test(num):
    if num == 2:
+      print("|")
+      print("|")
+      print("↓")
       print('T')
    else:
+      print("|")
+      print("|")
+      print("↓")
       print('F')
 2
 print('1働き蜂の性別は？　1,メス 2,オス 3,両方')
@@ -9,18 +15,25 @@ num = int(input('何番だと思う?  '))
 if_test(num)
 def if_test(num):
    if num == 2:
+      print("|")
+      print("|")
+      print("↓")
       print('T')
    else:
       print('F')
+import time
+time.sleep(10.00) # 0.001秒(=1ミリ秒)待つ
 3
 print('2 お酢に卵を殻ごといれると卵はどうなるでしょうか？ 1.透明な卵になる 2.硬い石のような卵になる 3.卵が溶けてなくなる ')
 num = int(input('何番だと思う?'))
 if_test(num)
 def if_test(num):
    if num == 1:
+      print("---→")
       print('T')
    else:
       print('F')
+
 
 4
 print('3 シロクマ（ホッキョクグマ）の肌の色は何色でしょうか？ 1.白色 2.肌色 3.黒色 ')
@@ -52,4 +65,5 @@ def if_test(num):
       print('T')
    else:
       print('F')
+
 
