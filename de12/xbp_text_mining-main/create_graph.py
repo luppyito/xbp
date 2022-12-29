@@ -8,12 +8,11 @@ from janome.tokenizer import Tokenizer
 def main():
     # stop_n_topで指定する頻出上位の単語, stop_min_freqで指定する頻出回数以下の単語を指定できる
     stopwords = ["する", "ある", "あと", "いる", "なる", "思う"]
-    stop_n_top = 5
-    stop_min_freq = 4
+    stop_n_top = 1
+    stop_min_freq = 1
 
     # 指定数以下のエッジのノードをプロット対象から除外する
-    min_edge_frequency = 3
-
+    min_edge_frequency = 2
     str_now = datetime.now().strftime("%H%M%S")
     create(stopwords, stop_n_top, stop_min_freq, min_edge_frequency, str_now)
 
