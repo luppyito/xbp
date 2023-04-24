@@ -5,6 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="./circle.css">
 </head>
 
 <body>
@@ -42,25 +43,29 @@
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">No.1</div>
-        <img src="./image/day1.4pics.jpg" alt="House" style="width:100%">
+        <a href="day1.html"> <img src="./image/day1.4pics.jpg" alt="No.1" style="width:100%"　height="100"></a>
+        
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">No.2</div>
-        <img src="./image/day1arduino1.jpg" alt="House" style="width:100%">
+        <img src="./image/day1arduino1.jpg" alt="House" style="width:100%"height="300">
+        <a href="day1ar.html"> <img src="./image/day1arduino1.jpg" alt="テキスト"></a>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">No.3</div>
         <img src="./image/day2.4pics.jpg" alt="House" style="width:100%">
+        <a href="遷移させたいURL"> <img src="画像のパス" alt="テキスト"></a>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">No.4</div>
-        <img src="./image/day2arduino1.jpg" alt="House" style="width:100%">
+        <img src="./image/day2arduino1.jpg" alt="House" style="width:100%"height="300">
+        <a href="遷移させたいURL"> <img src="画像のパス" alt="テキスト"></a>
       </div>
     </div>
   </div>
@@ -70,24 +75,28 @@
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Coming out soon</div>
         <img src="/w3images/house2.jpg" alt="House" style="width:99%">
+        <a href="遷移させたいURL"> <img src="画像のパス" alt="テキスト"></a>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Coming out soon</div>
         <img src="/w3images/house5.jpg" alt="House" style="width:99%">
+        <a href="遷移させたいURL"> <img src="画像のパス" alt="テキスト"></a>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Coming out soon</div>
         <img src="/w3images/house4.jpg" alt="House" style="width:99%">
+        <a href="遷移させたいURL"> <img src="画像のパス" alt="テキスト"></a>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Coming out soon</div>
         <img src="/w3images/house3.jpg" alt="House" style="width:99%">
+        <a href="遷移させたいURL"> <img src="画像のパス" alt="テキスト"></a>
       </div>
     </div>
   </div>
@@ -130,10 +139,24 @@
     </div>
   </div>
 
-
+  <div class="circle" data-splitting>XBP XBP XBP XBP XBP </div>
+  <img class="globe" src="https://purepng.com/public/uploads/large/purepng.com-earthearthplanetglobethird-planet-from-the-sun-1411526987961jvz5u.png"/>
+  <script>
+      const circle = document.querySelector('.circle');
+      const text = circle.innerHTML;// Note I am being lazy here and assuming the string has no unwanted whitespace
+      circle.innerHTML = '';        
+      circle.style.setProperty('--numchs', text.length);
+      for ( let i = 0; i < text.length; i++ ) {
+        circle.innerHTML = circle.innerHTML + '<div class="char" style="--char-index: ' + i + ';">' + text.charAt(i) + '</div>';
+      }
+  </script>
 
 <!-- End page content -->
 </div>
+
+
+
+
 
 
 <!-- Footer -->

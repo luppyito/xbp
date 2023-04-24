@@ -1,13 +1,13 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: monospace;
-}
+} */
 
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 
-body {
+/* body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +30,7 @@ body:after {
 	z-index: 2;
 	mix-blend-mode: screen;
 	opacity: 0.4;
-}
+} */
 
 
 .circle {
