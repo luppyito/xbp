@@ -1,168 +1,128 @@
 <!DOCTYPE html>
-<html>
+<html dir="ltr" lang="ja">
 <head>
-<title>Home page - de34</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="./circle.css">
+<meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
+<meta name="description" content="ホームページサンプル株式会社 | ホームページサンプル株式会社では最新技術と自然との調和を目指します。">
+<meta name="keywords" content="">
+<title>ホームページサンプル株式会社 | ホームページサンプル株式会社では最新技術と自然との調和を目指します。</title>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<script src="js/css3-mediaqueries.js"></script>
+<![endif]-->
 </head>
-
 <body>
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button"><b>X</b> Business Program</a>
-    <!-- Float links to the right. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-      <a href="#about" class="w3-bar-item w3-button">About</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-    </div>
+<!-- ヘッダー -->
+<div id="header">
+	<div class="inner">
+		<h1>ホームページサンプル株式会社のサイトです</h1>
+		<!-- ロゴ -->
+		<div class="logo">
+			<a href="index.html">Company Name<br><span>Your Company Slogan</span></a>
+		</div>
+		<!-- / ロゴ -->
+    
+	  <!-- トップナビゲーション -->
+		<ul id="topnav">
+			<li class="active"><a href="index.html">トップページ<br><span>Top</span></a></li>
+			<li><a href="subpage.html">ごあいさつ<br><span>Greeting</span></a></li>
+			<li><a href="subpage.html">サービス概要<br><span>Service</span></a></li>
+			<li><a href="subpage.html">弊社の取り組み<br><span>Approach</span></a></li>
+			<li><a href="subpage.html">会社情報<br><span>Company</span></a></li>
+			<li><a href="subpage.html">お問い合わせ<br><span>Contact</span></a></li>
+		</ul>
+		<!-- トップナビゲーション -->
   </div>
 </div>
+<!-- / ヘッダー -->
 
-<!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-  <img class="w3-image" src="./image/0_XBlogo.png" alt="Architecture" width="1500" height="800">
-  <div class="w3-display-middle w3-margin-top w3-center">
-    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>X</b></span> <span class="w3-hide-small w3-text-light-grey">Business Program</span></h1>
-  </div>
-</header>
+<div id="wrapper">
 
-<!-- Page content -->
-<div class="w3-content w3-padding" style="max-width:1564px">
-
-  <!-- Project Section -->
-  <div class="w3-container w3-padding-32" id="projects">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
-  </div>
-
-  <div class="w3-row-padding">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">No.1</div>
-        <a href="day1.html"> <img src="./image/day1.4pics.jpg" alt="No.1" style="width:100%"　height="100"></a>
-        
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">No.2</div>
-        <a href="day1ar.html"><img src="./image/day1arduino1.jpg" alt="House" style="width:100%"height="300"></a>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">No.3</div>
-        <img src="./image/day2.4pics.jpg" alt="House" style="width:100%">
-        <a href="遷移させたいURL"> <img src="画像のパス" alt="テキスト"></a>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">No.4</div>
-        <img src="./image/day2arduino1.jpg" alt="House" style="width:100%"height="300">
-        <a href="遷移させたいURL"> <img src="画像のパス" alt="テキスト"></a>
-      </div>
-    </div>
-  </div>
-
-  <div class="w3-row-padding">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Coming out soon</div>
-        <img src="/w3images/house2.jpg" alt="House" style="width:99%">
-        <a href="遷移させたいURL"> <img src="画像のパス" alt="テキスト"></a>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Coming out soon</div>
-        <img src="/w3images/house5.jpg" alt="House" style="width:99%">
-        <a href="遷移させたいURL"> <img src="画像のパス" alt="テキスト"></a>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Coming out soon</div>
-        <img src="/w3images/house4.jpg" alt="House" style="width:99%">
-        <a href="遷移させたいURL"> <img src="画像のパス" alt="テキスト"></a>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Coming out soon</div>
-        <img src="/w3images/house3.jpg" alt="House" style="width:99%">
-        <a href="遷移させたいURL"> <img src="画像のパス" alt="テキスト"></a>
-      </div>
-    </div>
-  </div>
-
-  <!-- About Section -->
-  <div class="w3-container w3-padding-32" id="about">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About me</h3>
-    <p>自己紹介
-    </p>
-  </div>
-
-  <div class="w3-row-padding w3-grayscale">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="./image/me.jpg" alt="Luna" style="width:100%">
-      <h3>Name</h3>
-      <p class="w3-opacity">Luna Itopradhan 伊藤プラダハン るな</p>
-      <p>私は奈良県出身の限界大学生２年目です！ネパールとハーフでよくどっか行ってます！</p>
-     
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="./image/me2.jpeg" alt="Eating" style="width:100%">
-      <h3>Hobby </h3>
-      <p class="w3-opacity">Eating</p>
-      <p>好きなことは食べることです！お腹が空いてる時は基本的に機嫌が悪いので、何か与えてくれると喜びます。</p>
+	<!-- メイン画像 -->
+	<div id="mainBanner" class="mainImg">
+		<img src="images/mainImg.jpg" alt="">
+    <div class="slogan">
+			<h2>自然との調和を目指す企業です</h2>
+			<h3>革新的な技術で世の中を動かす企業を目指します。</h3>
+		</div>
+	</div>
+	<!-- / メイン画像 -->
+ 
+	<!-- 4カラム -->
+  <section class="gridWrapper">
+		<article class="grid">
+			<h3>自然との調和を目指す企業です</h3>
+			<img src="images/eyecatch1.jpg" width="220" height="175" alt="">			
+			<p>ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす企業を目指します。</p>
+			<p class="readmore"><a href="subpage.html">詳細を確認する</a></p>
+		</article>
+		<article class="grid">
+			<h3>自然との調和を目指す企業です</h3>
+			<img src="images/eyecatch2.jpg" width="220" height="175" alt="">
+			<p>ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす企業を目指します。</p>
+			<p class="readmore"><a href="subpage.html">詳細を確認する</a></p>
+		</article>
+		<article class="grid">
+      <h3>自然との調和を目指す企業です</h3>
+			<img src="images/eyecatch3.jpg" width="220" height="175" alt="">
+			<p>ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす企業を目指します。</p>
+			<p class="readmore"><a href="subpage.html">詳細を確認する</a></p>
+		</article>
+    <article class="grid">
+			<h3>自然との調和を目指す企業です</h3>
+			<img src="images/eyecatch4.jpg" width="220" height="175" alt="">
+			<p>ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす企業を目指します。</p>
+			<p class="readmore"><a href="subpage.html">詳細を確認する</a></p>
+		</article>
+	</section>
+	<!-- / 4カラム -->
       
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="./image/dango.jpeg" alt="みたらし" style="width:100%">
-      <h3>Food</h3>
-      <p class="w3-opacity">みたらし団子</p>
-      <p>好きな食べ物はみたらし団子です。2022年には名古屋でみたらし団子旅をしました！</p>
-      
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="./image/me3.jpeg" alt="Disney" style="width:100%">
-      <h3>Disney lover</h3>
-      <p class="w3-opacity">夢の国</p>
-      <p>ディズニーが大好きなパーソンです！ディズニーに行ったら財布の中身が勝手に消えます。怖いです。</p>
-     
-    </div>
-  </div>
+	<section class="content">
+		<h3 class="heading">ホームページサンプル株式会社の取り組み</h3>
+		<article>
+			<img src="images/sample2.jpg" width="320" height="240" alt="" class="alignleft frame">
+			<p>革新的な技術で世の中を動かす企業を目指します。ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす企業を目指します。</p>
+			<p>ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす企業を目指します。ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす。革新的な技術で世の中を動かす。</p>
+      <p>革新的な技術で世の中を動かす企業を目指します。ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす企業を目指します。</p>
+			<p>ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす企業を目指します。ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす。革新的な技術で世の中を動かす。</p>
+		</article>
+	</section>
 
-  <div class="circle" data-splitting>XBP XBP XBP XBP XBP </div>
-  <img class="globe" src="https://purepng.com/public/uploads/large/purepng.com-earthearthplanetglobethird-planet-from-the-sun-1411526987961jvz5u.png"/>
-  <script>
-      const circle = document.querySelector('.circle');
-      const text = circle.innerHTML;// Note I am being lazy here and assuming the string has no unwanted whitespace
-      circle.innerHTML = '';        
-      circle.style.setProperty('--numchs', text.length);
-      for ( let i = 0; i < text.length; i++ ) {
-        circle.innerHTML = circle.innerHTML + '<div class="char" style="--char-index: ' + i + ';">' + text.charAt(i) + '</div>';
-      }
-  </script>
-
-<!-- End page content -->
 </div>
+<!-- / WRAPPER -->
 
-
-
-
-
-
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-16">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer>
+<!-- フッター -->
+<div id="footer">
+	<div class="inner">
+    
+		<!-- 3カラム -->
+    <section class="gridWrapper">
+      
+			<article class="grid">
+      	<!-- ロゴ -->
+				<p class="logo"><a href="index.html">Company Name<br /><span>Your Company Slogan</span></a></p>
+				<!-- / ロゴ -->
+			</article>
+			
+      <article class="grid">
+      	<!-- 電話番号+受付時間 -->
+				<p class="tel">電話: <strong>012-3456-7890</strong></p>
+				<p>受付時間: 平日 AM 10:00 〜 PM 5:00</p>
+				<!-- / 電話番号+受付時間 -->
+			</article>
+			
+      <article class="grid copyright">
+      	Copyright(c) 2012 Sample Inc. All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank" rel="nofollow">http://f-tpl.com</a>
+			</article>
+		
+    </section>
+		<!-- / 3カラム -->
+      
+	</div>
+</div>
+<!-- / フッター -->
 
 </body>
 </html>
-
