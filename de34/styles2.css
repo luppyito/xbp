@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #ffcc00;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  nav {
+    background-color: #00ccff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  section {
+    padding: 50px;
+  }
+  
+  #home {
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  #section1 {
+    background-color: #00ccff;
+    color: #fff;
+  }
+  
+  #section2 {
+    background-color: #ffff00;
+    color: #333;
+  }
+  
+  /* セクション内の写真スタイル */
+  img {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+  }
+  
